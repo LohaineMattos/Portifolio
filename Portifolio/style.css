@@ -1,0 +1,88 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #abc9bb;
+}
+
+header {
+    background-color: #abc9bb;
+    color: black;
+    padding: 3rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+    border-radius: 15px; /* Adiciona bordas arredondadas aos links */
+}
+
+nav ul li a:hover {
+    background-color: #517263; /* Cor de fundo ao passar o mouse */
+}
+
+section {
+    padding: 2rem 0; /* Ajusta o padding para centralizar o texto verticalmente */
+    margin: 0 auto;
+    max-width: 800px; /* Define a largura máxima da seção */
+    text-align: center; /* Centraliza o texto */
+}
+
+.projeto {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 5px; /* Adiciona bordas arredondadas aos campos de entrada */
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #fdfdfd;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Adiciona bordas arredondadas ao botão */
+}
+
+footer {
+    background-color: #abc9bb;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer hr {
+    width: 40%;
+}
